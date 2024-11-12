@@ -14,7 +14,17 @@
 
     .Information {
     }
-    .Quiz {
+    .Quiz table {
+      border-collapse: collapse;
+      width: 100%;
+      text-align: left;
+    }
+    .Quiz table tr th {
+      background-color: black;
+      color: white;
+    }
+    .Quiz table tr td:nth-child(odd) {
+      background-color: red;
     }
   </style>
   <body>
@@ -25,7 +35,88 @@
           alt="Europe-Countries-Map"
         />
       </div>
-      <div class="Quiz"></div>
+      <div class="Quiz">
+        <table border="1">
+          <tr>
+            <th>LETTRES</th>
+            <th>PAYS</th>
+            <th>LETTRES</th>
+            <th>PAYS</th>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Portugal</td>
+            <td></td>
+            <td>Ukraine</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Islande</td>
+            <td></td>
+            <td>Russie</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Belgique</td>
+            <td></td>
+            <td>Pays-Bas</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Allemagne</td>
+            <td></td>
+            <td>République tchèque</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Bulgarie</td>
+            <td></td>
+            <td>Serbie</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Royaume-Uni</td>
+            <td></td>
+            <td>Roumanie</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Suède</td>
+            <td></td>
+            <td>Danemark</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Lituanie</td>
+            <td></td>
+            <td>Autriche</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Espagne</td>
+            <td></td>
+            <td>France</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Grèce</td>
+            <td></td>
+            <td>Croatie</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Italie</td>
+            <td></td>
+            <td>Pologne</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Finlande</td>
+            <td></td>
+            <td>Hongrie</td>
+          </tr>
+        </table>
+      </div>
     </div>
 
     <div class="EuropeCapitals">
@@ -36,6 +127,12 @@
         />
       </div>
       <div class="Quiz"></div>
+    </div>
+
+    <div class="tools">
+      <button>Consignes</button>
+      <button>Précédent</button>
+      <button>Suivant</button>
     </div>
   </body>
   <script>
